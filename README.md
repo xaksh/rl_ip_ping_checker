@@ -16,11 +16,13 @@
 ## Quick using One-Liners
 For Unix-like Systems (Linux, macOS):
 
-`curl -sL https://raw.githubusercontent.com/xaksh/rl_ip_ping_checker/main/server_info.py | python3 -`
+```bash
+curl -sL https://raw.githubusercontent.com/xaksh/rl_ip_ping_checker/main/server_info.py | python -```
 
 For Windows (Using PowerShell):
 
-`Invoke-WebRequest https://raw.githubusercontent.com/xaksh/rl_ip_ping_checker/main/server_info.py -OutFile rl_log_parser.py; python rl_log_parser.py; Remove-Item rl_log_parser.py`
+```powershell
+Invoke-WebRequest https://raw.githubusercontent.com/xaksh/rl_ip_ping_checker/main/server_info.py -OutFile rl_log_parser.py; python rl_log_parser.py; Remove-Item rl_log_parser.py```
 
 # Description
 The Rocket League IP Ping Checker is a Python script for checking the ping to servers you've played on in Rocket League. I created this script to easily assess server performance by pinging IP addresses extracted from the game's log files.
